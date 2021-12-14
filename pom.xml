@@ -38,6 +38,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+		</dependency>		
 	</dependencies>
 
 	<build>
@@ -52,6 +57,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<mainClass>com.jk.java.array.FindDuplicates</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
